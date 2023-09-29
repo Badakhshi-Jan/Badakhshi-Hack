@@ -39,7 +39,7 @@ logo = """
 /_/   \_\_| |_|_|  |_|\__,_|\__,_|
 
 [*]----------------------------------------------
-[*] Author        : AhMad.MasTan
+[*] Author        : AhMad MasTan
 [*] Github        : https://github.com/Badakhshi-Jan/Badakhshi-Hack.git
 [*] Status        : free
 [*] version       : 0.1
