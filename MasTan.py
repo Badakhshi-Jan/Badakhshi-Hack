@@ -40,7 +40,7 @@ logo = """
 
 [*]----------------------------------------------
 [*] Author        : AhMad MasTan
-[*] Github        : https://github.com/Badakhshi-Jan/Badakhshi-Hack.git
+[*] Github        : Badakhshi Hack
 [*] Status        : free
 [*] version       : 0.1
 [*]----------------------------------------------
